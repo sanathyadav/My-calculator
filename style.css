@@ -1,0 +1,70 @@
+
+
+body {
+    margin: 0;
+    padding: 5vh;
+    padding-left: 30vmax;
+    
+}
+
+.sanath {
+    
+    margin: 0 auto;
+    border-color: brown;
+    background-color:black; 
+    width: 30%;
+    height: 68%;
+    padding-right: 15vw;
+    border-radius:25px;
+    position: absolute  ;
+
+}
+
+.calcontainer {
+
+                                                    
+    margin-top: 30px;
+    width: 320px;
+    border-radius:5%;
+    border-color:chocolate;   
+    border-width:thin;  
+    background-color:#DE3163;
+    display:inline-flexbox;
+    
+}
+
+#panel {
+
+    text-align: right;
+    width: 274px;
+    height: 80px;
+    font-size: 26px;
+    background-color:white;
+    border-radius: 10%;
+    border-color:black;
+  
+}
+
+#panel:hover {
+    /* calculator disply*/
+    cursor: col-resize;
+    background-color:lightseagreen;
+}
+
+.bttn {
+
+    margin-bottom: 8px;
+    margin-left: 5px;
+    width: 59px;
+    height: 45px;
+    font-size: 22px;
+    background-color:;
+}
+
+.bttne {
+    
+    width: 120px;
+    margin-top: 10px;
+    margin-right: 11px;
+    background-color:#FFD919;
+}

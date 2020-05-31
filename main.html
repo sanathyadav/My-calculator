@@ -1,0 +1,70 @@
+<!
+<!DOCTYPE HTML>
+
+
+<html lang="en-US">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>MY Calculator</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row sanath text-primary">
+            <div class=" col-xs-12  col-sm-offset-4 col-sm-12  col-md-offset-3 col-md-6  col-lg-offset-3 col-lg-6  ">
+                <form name="form" class="well calcontainer col-xs-12  col-sm-offset-4 col-sm-12  col-md-offset-3 col-md-6  col-lg-offset-3 col-lg-6 ">
+
+                    <!-- panel for the calculator -->
+
+                    <input class=" form-control " id="panel" name="panel" placeholder="0." disabled><br/>
+
+                    <!-- User Input Buttons for the calculator -->
+
+                    <input class="calc form-group btn btn-default bttn bg-primary" type="button" name="bttn7" data-role="number" value="7" >
+                    <input class=" calc form-group btn btn-default bttn" type="button" name="bttn8" data-role="number"value="8" >
+                    <input class="calc form-group btn btn-default bttn" type="button" name="bttn9" data-role="number"value="9" >
+                    <input class="calc form-group btn btn-danger bttn" type="button" name="bttnplus" data-role="operator"value="+"><br/>
+                    <input class=" calc form-group btn btn-default bttn" type="button" name="bttn4" data-role="number"value="4" >
+                    <input class="calc form-group btn btn-default bttn" type="button" name="bttn5" data-role="number"value="5" >
+                    <input class="calc form-group btn btn-default bttn" type="button" name="bttn6" data-role="number"value="6" >
+                    <input class="calc form-group btn btn-danger bttn" type="button" name="bttnminus"data-role="operator" value="-"><br/>
+
+                    <input class="calc form-group btn btn-default bttn" type="button" name="bttn1" data-role="number" value="1" >
+                    <input class="calc form-group btn btn-default bttn" type="button" name="bttn2"data-role="number" value="2" >
+                    <input class="calc form-group btn btn-default bttn" type="button" name="bttn3"data-role="number" value="3" >
+                    <input class="calc form-group btn btn-danger bttn" type="button" name="bttnmulti"data-role="operator" value="*" ><br/>
+                    <input class="calc form-group btn btn-default bttn" type="button" name="bttndot"data-role="number" value="." >
+                    <input class="calc form-group btn btn-default bttn" type="button" name="bttn0" data-role="number" value="0" >
+                    <input class="calc form-group btn btn-danger bttn" type="button" name="bttnmod"data-role="operator" value="%" >
+                    <input class="calc form-group btn btn-danger bttn" type="button" name="bttndiv"data-role="operator" value="/" ><br/>
+
+                    <input class=" form-group btn btn-info bttn bttne " type="button" id="clear" name="bttnclear" value="C" >
+
+                    <input class=" form-group btn btn-success bttn bttne" type="button" id="eval" name="bttnEQL" value="=" >
+
+
+                </form>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
